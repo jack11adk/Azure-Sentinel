@@ -1,0 +1,51 @@
+{
+    "id": "EntraNHIAssets",
+    "title": "Microsoft Entra NHI Assets",
+    "publisher": "Microsoft",
+    "logo": "AADCloudSync.svg",
+    "descriptionMarkdown": "Entra NHI (Non-Human Identity) assets data connector gives richer insights into activity data by supplementing details with non-human identity asset information such as applications, service principals, and managed identities. Data from this connector is used to build data risk graphs in Purview. If you have enabled those graphs, deactivating this Connector will prevent the graphs from being built. [Learn about the data risk graph.](https://go.microsoft.com/fwlink/?linkid=2320023)",
+    "graphQueries": [],
+    "sampleQueries": [],
+    "dataTypes": [],
+    "connectivityCriterias": [
+        {
+            "type": "EntraNHIAssets"
+        }
+    ],
+    "permissions": {
+        "tenant": [
+            "GlobalAdmin",
+            "SecurityAdmin"
+        ]
+    },
+    "availability": {
+        "status": 2
+    },
+    "instructionSteps": [
+        {
+            "instructions": [
+                {
+                    "parameters": {
+                        "type": "EntraNHIAssets",
+                        "description": "1. Connect Microsoft Entra NHI assets to ingest non-human identity data into Microsoft Sentinel Lake.",
+                        "items": [
+                            {
+                                "label": "EntraAgentIdentities"
+                            },
+                            {
+                                "label": "EntraAgentIdentityBlueprintPrincipals"
+                            },
+                            {
+                                "label": "EntraAgentIdentityBlueprints"
+                            },
+                            {
+                                "label": "EntraAgentUsers"
+                            }
+                        ]
+                    },
+                    "type": "MSG"
+                }
+            ]
+        }
+    ]
+}

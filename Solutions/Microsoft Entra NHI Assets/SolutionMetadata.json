@@ -1,0 +1,15 @@
+{
+	"publisherId": "azuresentinel",
+	"offerId": "azure-sentinel-solution-entranhi-assets",
+	"firstPublishDate": "2026-03-18",
+	"providers": ["Microsoft"],
+	"categories": {
+		"domains" : ["Cloud Provider"]
+	},
+	"support": {
+		"name": "Microsoft Corporation",
+		"email": "support@microsoft.com",
+		"tier": "Microsoft",
+		"link": "https://support.microsoft.com"
+	}
+}
