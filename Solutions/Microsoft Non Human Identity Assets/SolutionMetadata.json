@@ -1,6 +1,6 @@
 {
 	"publisherId": "azuresentinel",
-	"offerId": "azure-sentinel-solution-entranhi-assets",
+	"offerId": "azure-sentinel-solution-nonhumanidentity-assets",
 	"firstPublishDate": "2026-03-18",
 	"providers": ["Microsoft"],
 	"categories": {
