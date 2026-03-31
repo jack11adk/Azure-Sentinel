@@ -1,8 +1,8 @@
 {
 	"Name": "Microsoft Non Human Identity Assets",
 	"Author": "Microsoft",
-	"Logo": "<img src=\"https://raw.githubusercontent.com/Azure/Azure-Sentinel/refs/heads/master/Logos/AADCloudSync.svg\" width=\"75px\" height=\"75px\">",
-	"Description": "Microsoft Non Human Identity assets data connector gives richer insights into activity data by supplementing details with non-human identity asset information. Data from this connector is used to build data risk graphs in Purview. If you have enabled those graphs, deactivating this Connector will prevent the graphs from being built. [Learn about the data risk graph.](https://go.microsoft.com/fwlink/?linkid=2320023)",
+	"Logo": "<img src=\"https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Logos/Azure_Sentinel.svg\" width=\"75px\" height=\"75px\">",
+	"Description": "Microsoft Non\u2011Human Identity Assets provides centralized visibility into non\u2011human identities from Microsoft Entra, including Agent Users, Agent Blueprints and Agent Identities. This connector ingests Entra asset metadata into the Microsoft security data lake, enabling customers to inventory non\u2011human identities, understand ownership, analyze relationships, correlate identity assets with activity and risk signals for enriched investigations, improved governance, risk assessment and security posture via graphs.",
 	"Data Connectors": [
 		"Data Connectors/EntraNHIAssets_DataConnectorDefinition.json"
 	],

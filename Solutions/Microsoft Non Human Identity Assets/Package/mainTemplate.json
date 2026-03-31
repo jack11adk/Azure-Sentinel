@@ -74,8 +74,8 @@
                   "id": "[variables('_uiConfigId1')]",
                   "title": "Microsoft Non Human Identity Assets",
                   "publisher": "Microsoft",
-                  "logo": "AADCloudSync.svg",
-                  "descriptionMarkdown": "Microsoft Non Human Identity assets data connector gives richer insights into activity data by supplementing details with non-human identity asset information such as applications, service principals, and managed identities. Data from this connector is used to build data risk graphs in Purview. If you have enabled those graphs, deactivating this Connector will prevent the graphs from being built. [Learn about the data risk graph.](https://go.microsoft.com/fwlink/?linkid=2320023)",
+                  "logo": "Azure_Sentinel.svg",
+                  "descriptionMarkdown": "Microsoft Non‑Human Identity Assets provides centralized visibility into non‑human identities from Microsoft Entra, including Agent Users, Agent Blueprints and Agent Identities. This connector ingests Entra asset metadata into the Microsoft security data lake, enabling customers to inventory non‑human identities, understand ownership, analyze relationships, correlate identity assets with activity and risk signals for enriched investigations, improved governance, risk assessment and security posture via graphs.",
                   "graphQueries": "[variables('TemplateEmptyArray')]",
                   "sampleQueries": "[variables('TemplateEmptyArray')]",
                   "dataTypes": "[variables('TemplateEmptyArray')]",
@@ -203,7 +203,7 @@
         "connectorUiConfig": {
           "title": "Microsoft Non Human Identity Assets",
           "publisher": "Microsoft",
-          "descriptionMarkdown": "Microsoft Non Human Identity assets data connector gives richer insights into activity data by supplementing details with non-human identity asset information such as applications, service principals, and managed identities. Data from this connector is used to build data risk graphs in Purview. If you have enabled those graphs, deactivating this Connector will prevent the graphs from being built. [Learn about the data risk graph.](https://go.microsoft.com/fwlink/?linkid=2320023)",
+          "descriptionMarkdown": "Microsoft Non‑Human Identity Assets provides centralized visibility into non‑human identities from Microsoft Entra, including Agent Users, Agent Blueprints and Agent Identities. This connector ingests Entra asset metadata into the Microsoft security data lake, enabling customers to inventory non‑human identities, understand ownership, analyze relationships, correlate identity assets with activity and risk signals for enriched investigations, improved governance, risk assessment and security posture via graphs.",
           "graphQueries": "[variables('TemplateEmptyArray')]",
           "dataTypes": "[variables('TemplateEmptyArray')]",
           "connectivityCriterias": [
@@ -263,11 +263,11 @@
         "contentSchemaVersion": "3.0.0",
         "displayName": "Microsoft Non Human Identity Assets",
         "publisherDisplayName": "Microsoft Sentinel, Microsoft Corporation",
-        "descriptionHtml": "<p><strong>Note:</strong> Please refer to the following before installing the solution:</p>\n<p>• Review the solution <a href=\"https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Microsoft%20Non%20Human%20Identity%20Assets/ReleaseNotes.md\">Release Notes</a></p>\n<p>• There may be <a href=\"https://aka.ms/sentinelsolutionsknownissues\">known issues</a> pertaining to this Solution, please refer to them before installing.</p>\n<p>Microsoft Non Human Identity assets data connector gives richer insights into activity data by supplementing details with non-human identity asset information. Data from this connector is used to build data risk graphs in Purview. If you have enabled those graphs, deactivating this Connector will prevent the graphs from being built. <a href=\"https://go.microsoft.com/fwlink/?linkid=2320023\">Learn about the data risk graph.</a></p>\n<p><strong>Data Connectors:</strong> 1</p>\n<p><a href=\"https://aka.ms/azuresentinel\">Learn more about Microsoft Sentinel</a> | <a href=\"https://aka.ms/azuresentinelsolutionsdoc\">Learn more about Solutions</a></p>\n",
+        "descriptionHtml": "<p><strong>Note:</strong> Please refer to the following before installing the solution:</p>\n<p>• Review the solution <a href=\"https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Microsoft%20Non%20Human%20Identity%20Assets/ReleaseNotes.md\">Release Notes</a></p>\n<p>• There may be <a href=\"https://aka.ms/sentinelsolutionsknownissues\">known issues</a> pertaining to this Solution, please refer to them before installing.</p>\n<p>Microsoft Non‑Human Identity Assets provides centralized visibility into non‑human identities from Microsoft Entra, including Agent Users, Agent Blueprints and Agent Identities. This connector ingests Entra asset metadata into the Microsoft security data lake, enabling customers to inventory non‑human identities, understand ownership, analyze relationships, correlate identity assets with activity and risk signals for enriched investigations, improved governance, risk assessment and security posture via graphs.</p>\n<p><strong>Data Connectors:</strong> 1</p>\n<p><a href=\"https://aka.ms/azuresentinel\">Learn more about Microsoft Sentinel</a> | <a href=\"https://aka.ms/azuresentinelsolutionsdoc\">Learn more about Solutions</a></p>\n",
         "contentKind": "Solution",
         "contentProductId": "[variables('_solutioncontentProductId')]",
         "id": "[variables('_solutioncontentProductId')]",
-        "icon": "<img src=\"https://raw.githubusercontent.com/Azure/Azure-Sentinel/refs/heads/master/Logos/AADCloudSync.svg\" width=\"75px\" height=\"75px\">",
+        "icon": "<img src=\"https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Logos/Azure_Sentinel.svg\" width=\"75px\" height=\"75px\">",
         "contentId": "[variables('_solutionId')]",
         "parentId": "[variables('_solutionId')]",
         "source": {
